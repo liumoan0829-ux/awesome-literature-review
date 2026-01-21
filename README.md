@@ -16,7 +16,7 @@
 ##  时间序列基础模型 (Foundation Models)
 > 旨在构建通用的、跨域的时间序列“大模型”。
 
-| 📅 年份 | 📑 标题 (Title) | 🏛 会议 | 💡 核心点/备注 | 🔗 资源 |
+|  年份 |  标题  |  会议 | 核心点|  资源 |
 | :--- | :--- | :--- | :--- | :--- |
 | 2024 | **MOMENT: A Family of Open Time-series Foundation Models** | ICML | 开源时间序列基础模型家族 | [PDF](https://arxiv.org/pdf/2402.03885) \| [Code](https://github.com/moment-timeseries-foundation-model/moment) |
 | 2024 | **Chronos: Learning the Language of Time Series** | ICML | 将时序视为语言，基于Transformer的预测模型 | [PDF](https://arxiv.org/pdf/2403.07815) \| [Code](https://github.com/amazon-science/chronos-forecasting) |
@@ -27,7 +27,7 @@
 > 聚焦 AR 范式的五大方向：尺度生成、连续空间、测试时记忆、函数式叙事与掩码机制。
 > **Domain**: 📺=CV/Video, 🧠=NLP/General, 📈=Time Series (Target)
 
-| 📅 年份 | 🏷️ 核心机制 (Mechanism) | 🌌 领域 | 📑 标题 (Title) | 💡 推荐理由/迁移点 | 🔗 资源 |
+|  年份 |  核心机制 (Mechanism) |  领域 |  标题 |  推荐理由/迁移点 | 🔗资源 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **2026** | **Scale-wise (尺度递进)** | TS | **TimeMAR: Multi-Scale Autoregressive Modeling** | **[必读]** 迁移自 VAR，从粗糙(Trend)到精细(Seasonality)的生成 | [PDF](https://arxiv.org/pdf/2601.11184) |
 | 2024 | Scale-wise (尺度递进) |  CV | VAR: Visual Autoregressive Modeling | **[原型]** 下一尺度预测开山之作，速度比 Diffusion 快 20 倍 | [PDF](https://arxiv.org/pdf/2404.02905) |
@@ -39,7 +39,7 @@
 ##  基于扩散模型的生成 (Diffusion-based Generation)
 > 利用 Diffusion/Score-based Model 进行高质量、可解释的时间序列生成。
 
-| 📅 年份 | 📑 标题 (Title) | 🏛 会议 | 💡 核心点/备注 | 🔗 资源 |
+| 年份 |  标题  |  会议 |  核心点/备注 |  资源 |
 | :--- | :--- | :--- | :--- | :--- |
 | 2025 | **TSGM: Universal Time-series Generation using Score-based...** | ICLR | 基于分数的通用生成模型，支持非规则序列 | [PDF](https://arxiv.org/pdf/2511.21335) |
 | 2024 | **Diffusion-TS: Interpretable Diffusion for General Time Series** | ICLR | 提供可解释性的通用扩散生成框架 | [PDF](https://arxiv.org/pdf/2403.01742) \| [Code](https://github.com/Y-debug-sys/Diffusion-TS) |
@@ -52,7 +52,7 @@
 ##  文本驱动与可控生成 (Text-to-Series & Controllable)
 > 通过文本描述或特定指令来生成/编辑时间序列。
 
-| 📅 年份 | 📑 标题 (Title) | 🏛 会议 | 💡 核心点/备注 | 🔗 资源 |
+|  年份 |  标题  | 会议 |  核心点/备注 |  资源 |
 | :--- | :--- | :--- | :--- | :--- |
 | 2025 | **VerbaTS: Generating Time Series from Texts** | ICML | 文本交互生成时间序列 (VerbalTS) | [PDF](https://proceedings.mlr.press/v267/gu25a/gu25a.pdf) \| [Code](https://github.com/seqml/VerbaTS) |
 | 2025 | **T2S: High-resolution Time Series Generation with Text...** | IJCAI | 文本到序列扩散模型，高分辨率生成 | [PDF](https://arxiv.org/pdf/2505.02417) \| [Code](https://github.com/WinfredGc/T2S) |
@@ -62,7 +62,7 @@
 ##  通用生成与分解 (General Synthesis & Decomposition)
 > 关注数据分解、稀缺性问题及通用生成技术。
 
-| 📅 年份 | 📑 标题 (Title) | 🏛 会议 | 💡 核心点/备注 | 🔗 资源 |
+|  年份 | 标题  |  会议 |  核心点/备注 |  资源 |
 | :--- | :--- | :--- | :--- | :--- |
 | 2025 | Effective Series Decomposition and Components Learning... | ICDM | 周期性、趋势性扩散模型 (STDiffusion) | [PDF](https://arxiv.org/pdf/2511.00747) |
 | 2024 | Generative Time Series Forecasting with Diffusion... | NeurIPS | 结合分解、去噪、解缠的生成式预测 | [PDF](https://arxiv.org/pdf/2301.03028) \| [Code](https://github.com/PaddlePaddle/PaddleSpatial) |
