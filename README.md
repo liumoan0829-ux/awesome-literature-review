@@ -5,15 +5,15 @@
 
 ## 目录 (Table of Contents)
 
-- [🚀 时间序列基础模型 (Foundation Models)](#-时间序列基础模型-foundation-models)
-- [🔄 自回归模型的时序生成 (Autoregressive Modeling)](#-自回归模型的时序生成-autoregressive-modeling)
-- [🌊 基于扩散模型的生成 (Diffusion-based Generation)](#-基于扩散模型的生成-diffusion-based-generation)
-- [🗣️ 文本驱动与可控生成 (Text-to-Series & Controllable)](#️-文本驱动与可控生成-text-to-series--controllable)
-- [🛠️ 通用生成与分解 (General Synthesis & Decomposition)](#️-通用生成与分解-general-synthesis--decomposition)
+- [ 时间序列基础模型 (Foundation Models)](#-时间序列基础模型-foundation-models)
+- [自回归模型的时序生成 (Autoregressive Modeling)](#-自回归模型的时序生成-autoregressive-modeling)
+- [ 基于扩散模型的生成 (Diffusion-based Generation)](#-基于扩散模型的生成-diffusion-based-generation)
+- [ 文本驱动与可控生成 (Text-to-Series & Controllable)](#️-文本驱动与可控生成-text-to-series--controllable)
+- [ 通用生成与分解 (General Synthesis & Decomposition)](#️-通用生成与分解-general-synthesis--decomposition)
 
 ---
 
-## 🚀 时间序列基础模型 (Foundation Models)
+##  时间序列基础模型 (Foundation Models)
 > 旨在构建通用的、跨域的时间序列“大模型”。
 
 | 📅 年份 | 📑 标题 (Title) | 🏛 会议 | 💡 核心点/备注 | 🔗 资源 |
@@ -23,7 +23,7 @@
 | 2025 | **Lag-Llama: Towards Foundation Models for Probabilistic...** | ICLR | 概率时间序列预测的基础模型 | [PDF](https://arxiv.org/pdf/2310.08278) \| [Code](https://github.com/time-series-foundation-models/lag-llama) |
 | 2024 | UniTS: Building a Unified Time Series Model | NeurIPS | 统一多任务时间序列模型 | [PDF](https://arxiv.org/pdf/2403.00131) \| [Code](https://github.com/mims-harvard/UniTS) |
 
-## 🔄 自回归与跨域迁移 (Next-Gen AR & Cross-Domain)
+## 自回归与跨域迁移 (Next-Gen AR & Cross-Domain)
 > 聚焦 AR 范式的五大方向：尺度生成、连续空间、测试时记忆、函数式叙事与掩码机制。
 > **Domain**: 📺=CV/Video, 🧠=NLP/General, 📈=Time Series (Target)
 
@@ -36,7 +36,7 @@
 | 2025 | **Test-Time Memory** |  AI | Titans: Learning to Memorize at Test Time | **[原型]** Google新架构，测试时实时更新记忆，对抗 Concept Drift | [PDF](https://arxiv.org/pdf/2501.00663) |
 | 2025 | **Masked AR (掩码)** |  CV | HMAR: Efficient Hierarchical Masked Auto-Regressive | **[原型]** 结合双向能力，适合做任意条件(Any-condition)的时序补全 | [Link](https://arxiv.org/abs/2403.13731) |
 
-## 🌊 基于扩散模型的生成 (Diffusion-based Generation)
+##  基于扩散模型的生成 (Diffusion-based Generation)
 > 利用 Diffusion/Score-based Model 进行高质量、可解释的时间序列生成。
 
 | 📅 年份 | 📑 标题 (Title) | 🏛 会议 | 💡 核心点/备注 | 🔗 资源 |
@@ -49,7 +49,7 @@
 | 2025 | Population Aware Diffusion for Time Series Generation | AAAI | 群体统计特征感知的生成 | [PDF](https://arxiv.org/pdf/2501.00910) \| [Code](https://github.com/wmd3i/PaD-TS) |
 | 2024 | TimeLDM: Latent Diffusion Model for Unconditional... | Preprint | 效率优化与长序列生成（潜在扩散模型） | [PDF](https://arxiv.org/pdf/2407.04211) |
 
-## 🗣️ 文本驱动与可控生成 (Text-to-Series & Controllable)
+##  文本驱动与可控生成 (Text-to-Series & Controllable)
 > 通过文本描述或特定指令来生成/编辑时间序列。
 
 | 📅 年份 | 📑 标题 (Title) | 🏛 会议 | 💡 核心点/备注 | 🔗 资源 |
@@ -59,7 +59,7 @@
 | 2025 | TimeDP: Learning to Generate Multi-Domain Time Series... | AAAI | 利用领域提示词生成多域时序 | [PDF](https://arxiv.org/pdf/2501.05403) \| [Code](https://github.com/microsoft/TimeCraft) |
 | 2024 | Towards Editing Time Series | NeurIPS | 时间序列编辑（局部修改趋势） | [PDF](https://proceedings.neurips.cc/paper_files/paper/2024/file/423d0909791493b7c10916fd328c2913-Paper-Conference.pdf) \| [Code](https://github.com/seqml/TEdit) |
 
-## 🛠️ 通用生成与分解 (General Synthesis & Decomposition)
+##  通用生成与分解 (General Synthesis & Decomposition)
 > 关注数据分解、稀缺性问题及通用生成技术。
 
 | 📅 年份 | 📑 标题 (Title) | 🏛 会议 | 💡 核心点/备注 | 🔗 资源 |
