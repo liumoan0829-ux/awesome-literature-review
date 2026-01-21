@@ -32,10 +32,11 @@
 | 2025 | **NoTS: Generalizable Autoregressive Modeling...** | ICLR | 函数叙事 (Functional Narratives)，将时序视为函数 | [PDF](https://arxiv.org/pdf/2410.08421) |
 
 ## 🌊 基于扩散模型的生成 (Diffusion-based Generation)
-> 利用 Diffusion Model 进行高质量、可解释的时间序列生成。
+> 利用 Diffusion/Score-based Model 进行高质量、可解释的时间序列生成。
 
 | 📅 年份 | 📑 标题 (Title) | 🏛 会议 | 💡 核心点/备注 | 🔗 资源 |
 | :--- | :--- | :--- | :--- | :--- |
+| 2025 | **TSGM: Universal Time-series Generation using Score-based...** | ICLR | 基于分数的通用生成模型，支持非规则序列 | [PDF](https://arxiv.org/pdf/2511.21335) |
 | 2024 | **Diffusion-TS: Interpretable Diffusion for General Time Series** | ICLR | 提供可解释性的通用扩散生成框架 | [PDF](https://arxiv.org/pdf/2403.01742) \| [Code](https://github.com/Y-debug-sys/Diffusion-TS) |
 | 2024 | FIDE: Frequency-Inflated Conditional Diffusion Model... | NeurIPS | 频率增强条件扩散，针对极端感知生成 | [PDF](https://proceedings.neurips.cc/paper_files/paper/2024/file/cfce727868dcaf5295c0125f9d6fbc0b-Paper-Conference.pdf) \| [Code](https://github.com/galib19/FIDE) |
 | 2025 | Ctrl-Adapter: An Efficient and Versatile Framework... | ICLR | 适配任意扩散模型的高效控制框架 | [PDF](https://arxiv.org/pdf/2404.09967) \| [Code](https://github.com/HL-hanlin/Ctrl-Adapter) |
