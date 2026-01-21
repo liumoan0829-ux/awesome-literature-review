@@ -23,13 +23,18 @@
 | 2025 | **Lag-Llama: Towards Foundation Models for Probabilistic...** | ICLR | 概率时间序列预测的基础模型 | [PDF](https://arxiv.org/pdf/2310.08278) \| [Code](https://github.com/time-series-foundation-models/lag-llama) |
 | 2024 | UniTS: Building a Unified Time Series Model | NeurIPS | 统一多任务时间序列模型 | [PDF](https://arxiv.org/pdf/2403.00131) \| [Code](https://github.com/mims-harvard/UniTS) |
 
-## 🔄 自回归模型的时序生成 (Autoregressive Modeling)
-> 探索 Next-Token Prediction 范式在时序生成中的新边界 (Scaling & Generalization)。
+## 🔄 自回归与跨域迁移 (Next-Gen AR & Cross-Domain)
+> 聚焦 AR 范式的五大方向：尺度生成、连续空间、测试时记忆、函数式叙事与掩码机制。
+> **Domain**: 📺=CV/Video, 🧠=NLP/General, 📈=Time Series (Target)
 
-| 📅 年份 | 📑 标题 (Title) | 🏛 会议 | 💡 核心点/备注 | 🔗 资源 |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026 | **TimeMAR: Multi-Scale Autoregressive Modeling...** | arXiv | 多尺度自回归，解决长序列依赖 | [PDF](https://arxiv.org/pdf/2601.11184) |
-| 2025 | **NoTS: Generalizable Autoregressive Modeling...** | ICLR | 函数叙事 (Functional Narratives)，将时序视为函数 | [PDF](https://arxiv.org/pdf/2410.08421) |
+| 📅 年份 | 🏷️ 核心机制 (Mechanism) | 🌌 领域 | 📑 标题 (Title) | 💡 推荐理由/迁移点 | 🔗 资源 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **2026** | **Scale-wise (尺度递进)** | 📈 TS | **TimeMAR: Multi-Scale Autoregressive Modeling** | **[必读]** 迁移自 VAR，从粗糙(Trend)到精细(Seasonality)的生成 | [PDF](https://arxiv.org/pdf/2601.11184) |
+| 2024 | Scale-wise (尺度递进) | 📺 CV | VAR: Visual Autoregressive Modeling | **[原型]** 下一尺度预测开山之作，速度比 Diffusion 快 20 倍 | [PDF](https://arxiv.org/pdf/2404.02905) |
+| **2025** | **Functional (函数叙事)** | 📈 TS | **NoTS: Generalizable AR Modeling Through Functional Narratives** | **[必读]** Apple出品，将时序视为函数序列，引入退化算子 | [PDF](https://arxiv.org/pdf/2410.08421) |
+| 2025 | **Continuous (非量化)** | 📺 Video | NOVA: AR Video Generation without Vector Quantization | **[原型]** 抛弃 VQ-VAE，解决量化带来的高频数值精度丢失问题 | [PDF](https://arxiv.org/pdf/2401.12945) |
+| 2025 | **Test-Time Memory** | 🧠 AI | Titans: Learning to Memorize at Test Time | **[原型]** Google新架构，测试时实时更新记忆，对抗 Concept Drift | [PDF](https://arxiv.org/pdf/2501.00663) |
+| 2025 | **Masked AR (掩码)** | 📺 CV | HMAR: Efficient Hierarchical Masked Auto-Regressive | **[原型]** 结合双向能力，适合做任意条件(Any-condition)的时序补全 | [Link](https://arxiv.org/abs/2403.13731) |
 
 ## 🌊 基于扩散模型的生成 (Diffusion-based Generation)
 > 利用 Diffusion/Score-based Model 进行高质量、可解释的时间序列生成。
