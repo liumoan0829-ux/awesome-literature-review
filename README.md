@@ -1,11 +1,12 @@
 # 📚 Awesome Time Series Generation
 
 > 个人文献调研清单：专注于时间序列生成、扩散模型与基础模型。
-> 最后更新时间: 2026-01-20
+> 最后更新时间: 2026-01-21
 
 ## 目录 (Table of Contents)
 
 - [🚀 时间序列基础模型 (Foundation Models)](#-时间序列基础模型-foundation-models)
+- [🔄 自回归模型的时序生成 (Autoregressive Modeling)](#-自回归模型的时序生成-autoregressive-modeling)
 - [🌊 基于扩散模型的生成 (Diffusion-based Generation)](#-基于扩散模型的生成-diffusion-based-generation)
 - [🗣️ 文本驱动与可控生成 (Text-to-Series & Controllable)](#️-文本驱动与可控生成-text-to-series--controllable)
 - [🛠️ 通用生成与分解 (General Synthesis & Decomposition)](#️-通用生成与分解-general-synthesis--decomposition)
@@ -21,6 +22,14 @@
 | 2024 | **Chronos: Learning the Language of Time Series** | ICML | 将时序视为语言，基于Transformer的预测模型 | [PDF](https://arxiv.org/pdf/2403.07815) \| [Code](https://github.com/amazon-science/chronos-forecasting) |
 | 2025 | **Lag-Llama: Towards Foundation Models for Probabilistic...** | ICLR | 概率时间序列预测的基础模型 | [PDF](https://arxiv.org/pdf/2310.08278) \| [Code](https://github.com/time-series-foundation-models/lag-llama) |
 | 2024 | UniTS: Building a Unified Time Series Model | NeurIPS | 统一多任务时间序列模型 | [PDF](https://arxiv.org/pdf/2403.00131) \| [Code](https://github.com/mims-harvard/UniTS) |
+
+## 🔄 自回归模型的时序生成 (Autoregressive Modeling)
+> 探索 Next-Token Prediction 范式在时序生成中的新边界 (Scaling & Generalization)。
+
+| 📅 年份 | 📑 标题 (Title) | 🏛 会议 | 💡 核心点/备注 | 🔗 资源 |
+| :--- | :--- | :--- | :--- | :--- |
+| 2026 | **TimeMAR: Multi-Scale Autoregressive Modeling...** | arXiv | 多尺度自回归，解决长序列依赖 | [PDF](https://arxiv.org/pdf/2601.11184) |
+| 2025 | **NoTS: Generalizable Autoregressive Modeling...** | ICLR | 函数叙事 (Functional Narratives)，将时序视为函数 | [PDF](https://arxiv.org/pdf/2410.08421) |
 
 ## 🌊 基于扩散模型的生成 (Diffusion-based Generation)
 > 利用 Diffusion Model 进行高质量、可解释的时间序列生成。
