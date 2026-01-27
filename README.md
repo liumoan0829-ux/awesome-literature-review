@@ -16,8 +16,9 @@
 ##  时间序列基础模型 (Foundation Models)
 > 旨在构建通用的、跨域的时间序列“大模型”。
 
-|  年份 |  标题  |  会议 | 核心点|  资源 |
+|  年份 |  标题 (Title) | 会议/期刊 |  核心点/备注 |  资源 |
 | :--- | :--- | :--- | :--- | :--- |
+| **2025** | **MetaIndux-TS: Frequency-Aware AIGC Foundation Model...** | IEEE TNNLS | **[工业基础模型]** 频域感知的扩散基础模型，具备工业场景 Zero-shot 生成能力 | [Code](https://github.com/Dolphin-wang/MetaIndux) |
 | 2024 | **MOMENT: A Family of Open Time-series Foundation Models** | ICML | 开源时间序列基础模型家族 | [PDF](https://arxiv.org/pdf/2402.03885) \| [Code](https://github.com/moment-timeseries-foundation-model/moment) |
 | 2024 | **Chronos: Learning the Language of Time Series** | ICML | 将时序视为语言，基于Transformer的预测模型 | [PDF](https://arxiv.org/pdf/2403.07815) \| [Code](https://github.com/amazon-science/chronos-forecasting) |
 | 2025 | **Lag-Llama: Towards Foundation Models for Probabilistic...** | ICLR | 概率时间序列预测的基础模型 | [PDF](https://arxiv.org/pdf/2310.08278) \| [Code](https://github.com/time-series-foundation-models/lag-llama) |
@@ -42,8 +43,13 @@
 ##  基于扩散模型的生成 (Diffusion-based Generation)
 > 利用 Diffusion/Score-based Model 进行高质量、可解释的时间序列生成。
 
-| 年份 |  标题  |  会议 |  核心点/备注 |  资源 |
+|  年份 | 标题 (Title) |  会议/期刊 |  核心点/备注 |  资源 |
 | :--- | :--- | :--- | :--- | :--- |
+| **2026** | **DLTTS: Diffusion Model for Long-Tailed...** | IEEE TKDE | **[工业/长尾]** 结合 Informer 与 FBMC Loss，专攻工业长尾数据生成 | [Paper](https://ieeexplore.ieee.org/abstract/document/10834079) |
+| **2025** | **MA-TSD: A Non-isotropic Time Series Diffusion Model...** | ICML | **[SOTA]** 利用移动平均(MA)作为前向过程，保留低频信息，解决梯度冲突 | [PDF](https://openreview.net/pdf?id=yFF7hy8Mbh) |
+| **2024** | **ARMD: Auto-Regressive Moving Diffusion Models...** | IJCAI | **[混合架构]** 将自回归移动过程融入扩散去噪，增强时间依赖性捕捉 | [PDF](https://www.ijcai.org/proceedings/2024/0523.pdf) \| [Code](https://github.com/zhycs/ARMD) |
+| **2025** | **ImagenI2R: A Diffusion Model for Regular TS Generation...** | NeurIPS | **[SOTA]** 两步法：先用Transformer补全，再用视觉Diffusion生成，专攻非规则数据 | [PDF](https://arxiv.org/pdf/2510.06699) \| [Code](https://github.com/azencot-group/ImagenI2R) |
+| 2025 | **SigDiffusions: Score-Based Diffusion Models...** | ICLR | **[理论流派]** 在 Log-Signature 空间扩散，利用粗糙路径理论捕捉长程依赖 | [PDF](https://arxiv.org/pdf/2406.10354) \| [Code](https://github.com/Barb0ra/SigDiffusions) |
 | 2025 | **TSGM: Universal Time-series Generation using Score-based...** | ICLR | 基于分数的通用生成模型，支持非规则序列 | [PDF](https://arxiv.org/pdf/2511.21335) |
 | 2024 | **Diffusion-TS: Interpretable Diffusion for General Time Series** | ICLR | 提供可解释性的通用扩散生成框架 | [PDF](https://arxiv.org/pdf/2403.01742) \| [Code](https://github.com/Y-debug-sys/Diffusion-TS) |
 | 2024 | FIDE: Frequency-Inflated Conditional Diffusion Model... | NeurIPS | 频率增强条件扩散，针对极端感知生成 | [PDF](https://proceedings.neurips.cc/paper_files/paper/2024/file/cfce727868dcaf5295c0125f9d6fbc0b-Paper-Conference.pdf) \| [Code](https://github.com/galib19/FIDE) |
