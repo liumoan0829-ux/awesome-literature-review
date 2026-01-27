@@ -23,16 +23,18 @@
 | 2025 | **Lag-Llama: Towards Foundation Models for Probabilistic...** | ICLR | 概率时间序列预测的基础模型 | [PDF](https://arxiv.org/pdf/2310.08278) \| [Code](https://github.com/time-series-foundation-models/lag-llama) |
 | 2024 | UniTS: Building a Unified Time Series Model | NeurIPS | 统一多任务时间序列模型 | [PDF](https://arxiv.org/pdf/2403.00131) \| [Code](https://github.com/mims-harvard/UniTS) |
 
-##  次世代自回归与跨域迁移 (Next-Gen AR & Cross-Domain)
-> 聚焦 AR 范式的五大方向：尺度生成、离散化、连续空间、测试时记忆与函数式叙事。
-> **Domain**: =CV/Video, =NLP/General, =Time Series (Target)
+## 自回归与跨域迁移 (Next-Gen AR & Cross-Domain)
+> 聚焦 AR 范式的五大方向：尺度生成、离散/潜在空间、连续空间、测试时记忆与函数式叙事。
+> **Domain**: CV/Video, NLP/General, Time Series (Target)
 
-|  年份 |  核心机制 (Mechanism) | 领域 | 标题 (Title) |  推荐理由/迁移点 |  资源 |
+|  年份 |  核心机制 (Mechanism) | 🌌领域 |  标题 (Title) | 💡推荐理由/迁移点 |  资源 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **2026** | **Scale-wise (尺度递进)** |  TS | **TimeMAR: Multi-Scale Autoregressive Modeling** | **[必读]** 迁移自 VAR，从粗糙(Trend)到精细(Seasonality)的生成 | [PDF](https://arxiv.org/pdf/2601.11184) |
 | 2024 | Scale-wise (尺度递进) |  CV | VAR: Visual Autoregressive Modeling | **[原型]** 下一尺度预测开山之作，速度比 Diffusion 快 20 倍 | [PDF](https://arxiv.org/pdf/2404.02905) |
-| **2024** | **Discrete VQ (离散化)** |  TS | **SDformer: Similarity-driven Discrete Transformer** | **[SOTA]** 提出相似度驱动的 VQ 机制，推理速度比 Diffusion 快 30 倍 | [PDF](https://proceedings.mlr.press/v235/gao24c/gao24c.pdf) \| [Code](https://github.com/Spongebob-Hui/SDformer) |
-| **2025** | **Functional (函数叙事)** |  TS | **NoTS: Generalizable AR Modeling Through Functional Narratives** | **[必读]** Apple出品，将时序视为函数序列，引入退化算子 | [PDF](https://arxiv.org/pdf/2410.08421) |
+| **2024** | **Discrete VQ (离散化)** |  TS | **SDformer: Similarity-driven Discrete Transformer** | **[SOTA]** 提出相似度驱动的 VQ 机制，推理速度比 Diffusion 快 30 倍 | [PDF]_(https://proceedings.mlr.press/v235/gao24c/gao24c.pdf) \| [Code](https://github.com/Spongebob-Hui/SDformer) |
+| **2025** | **Multi-scale VQ (多尺度离散)** |  TS | **MSDformer: Multi-scale Discrete Transformer** | **[进阶]** SDformer 的升级版，引入级联残差 VQ-VAE 捕捉多尺度特征 | [PDF](https://arxiv.org/pdf/2505.14202) |
+| **2025** | **Latent AR (潜在空间)** |  TS | **Less Is More: Generating Time Series with LLaMA...** | **[新范式]** 结合 LLaMA 架构与简化因子化潜在空间，追求极致效率 | [PDF](链接) |
+| **2025** | **Functional (函数叙事)** |  TS | **NoTS: Generalizable AR Modeling Through Functional Narratives** | **[必读]** Apple出品，将时序视为函数序列，引入退化算子 | [PDF_(https://arxiv.org/pdf/2410.08421)|
 | 2025 | **Continuous (非量化)** |  Video | NOVA: AR Video Generation without Vector Quantization | **[原型]** 抛弃 VQ-VAE，解决量化带来的高频数值精度丢失问题 | [PDF](https://arxiv.org/pdf/2401.12945) |
 | 2025 | **Test-Time Memory** |  AI | Titans: Learning to Memorize at Test Time | **[原型]** Google新架构，测试时实时更新记忆，对抗 Concept Drift | [PDF](https://arxiv.org/pdf/2501.00663) |
 | 2025 | **Masked AR (掩码)** |  CV | HMAR: Efficient Hierarchical Masked Auto-Regressive | **[原型]** 结合双向能力，适合做任意条件(Any-condition)的时序补全 | [Link](https://arxiv.org/abs/2403.13731) |
